@@ -180,7 +180,7 @@ function ProfileCard({ stock, onChangeCompany }){
       <div className="profile-info">
         <div className="profile-title">{stock.name}</div>
         <div style={{fontWeight:600, color: stock.yoy2024>0?"#44cc44":"#cc4444"}}>
-          2024: {stock.yoy2024>0? `+${stock.yoy2024(1)}%` : `${stock.yoy2024(1)}%`}
+          2024: {stock.yoy2024>0? `+${stock.yoy2024}%` : `${stock.yoy2024}%`}
         </div>
         <div className="profile-details">
           <div>CEO: {stock.ceo}</div>
