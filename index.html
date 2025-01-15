@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ledger, by StockSentinel</title>
+    <!-- Link our stylesheet -->
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+
+    <div id="root"></div>
+
+    <!-- React + ReactDOM from CDN -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!-- Babel standalone so we can use JSX in app.js without a build step -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- Our main app code => type="text/babel" so Babel processes it at runtime -->
+    <script type="text/babel" src="./app.js"></script>
+
+  </body>
+</html>
