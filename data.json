@@ -1,0 +1,191 @@
+[
+  {
+    "ticker": "AAPL",
+    "name": "Apple Inc (AAPL)",
+    "yoy2024": 7.8,
+    "ceo": "Tim Cook",
+    "hq": "Cupertino, CA",
+    "industry": "Consumer Electronics",
+    "facts": [
+      "Apple was founded in 1976 by Jobs, Wozniak, and Wayne.",
+      "Apple Park cost over $5 billion to build.",
+      "Apple is known for iPhone, iPad, Mac, etc."
+    ],
+    "scoreboard": [
+      { "name": "Track Record", "value": 9, "desc": "Consistently beats estimates, strong brand efficiency." },
+      { "name": "Profitability", "value": 10, "desc": "High margins from premium devices & ecosystem." },
+      { "name": "Revenue Quality", "value": 9, "desc": "Stable hardware plus high-margin services." },
+      { "name": "Analyst Sentiment", "value": 9, "desc": "Mostly bullish, strong brand loyalty." },
+      { "name": "Company Viability", "value": 10, "desc": "Ample cash reserves, unstoppable global presence." },
+      { "name": "Alignment", "value": 8, "desc": "Privacy & environment stance resonates with consumers." },
+      { "name": "Capital Allocation", "value": 9, "desc": "Aggressive buybacks, consistent dividend growth." },
+      { "name": "Market Position", "value": 10, "desc": "Top brand in consumer electronics, unstoppable mindshare." },
+      { "name": "Financial Health", "value": 10, "desc": "Robust balance sheet, large free cash flow." },
+      { "name": "Outlook", "value": 9, "desc": "AR/VR expansions, wearables pipeline fueling next wave." }
+    ],
+    "scenario": {
+      "bear": -3,
+      "base": 2,
+      "bull": 8,
+      "bearBullets": [
+        "Possible supply chain disruptions or macro slowdown.",
+        "Competitors gain traction in smartphones & wearables.",
+        "Regulatory scrutiny on App Store fees.",
+        "Consumer shifts away from premium pricing in downturn."
+      ],
+      "baseBullets": [
+        "Steady iPhone & Mac sales, moderate services expansion.",
+        "Wearables keep stable yoy growth, no major surprises.",
+        "Emerging markets adopt iOS at a measured pace.",
+        "Privacy features maintain baseline brand trust."
+      ],
+      "bullBullets": [
+        "AR/VR device sparks new growth category.",
+        "Services revenue leaps from subscriptions globally.",
+        "Emerging markets embrace Apple brand strongly.",
+        "Premium margins sustained by brand loyalty."
+      ]
+    },
+    "qa": [
+      {
+        "q": "What's Apple's most profitable product?",
+        "a": "iPhone remains Apple’s top revenue driver, fueling its ecosystem."
+      },
+      {
+        "q": "How does Apple lead in services?",
+        "a": "They leverage a huge device base for Apple Music, iCloud, and more recurring revenue."
+      },
+      {
+        "q": "Any big upcoming releases?",
+        "a": "Speculation about AR/VR headsets; Apple often keeps future plans secret until announcement."
+      },
+      {
+        "q": "Apple’s stance on environment?",
+        "a": "They aim for carbon neutrality, use renewable energy in data centers, and incorporate more recycled materials."
+      },
+      {
+        "q": "What are main risks?",
+        "a": "Supply chain disruptions, smartphone saturation, and regulatory scrutiny on app store fees."
+      }
+    ]
+  },
+  {
+    "ticker": "MSFT",
+    "name": "Microsoft Corp (MSFT)",
+    "yoy2024": 5.3,
+    "ceo": "Satya Nadella",
+    "hq": "Redmond, WA",
+    "industry": "Software & Cloud",
+    "facts": [
+      "Founded by Bill Gates & Paul Allen in 1975.",
+      "Microsoft Office launched in 1990.",
+      "Azure is a major revenue driver with strong growth."
+    ],
+    "scoreboard": [
+      { "name": "Track Record", "value": 9, "desc": "Transformation under Nadella outperforms expectations." },
+      { "name": "Profitability", "value": 9, "desc": "High margins from software licensing plus Azure returns." },
+      { "name": "Revenue Quality", "value": 8, "desc": "Enterprise deals plus Office 365 subscriptions." },
+      { "name": "Analyst Sentiment", "value": 9, "desc": "Wall Street sees stable growth in cloud & enterprise." },
+      { "name": "Company Viability", "value": 10, "desc": "Dominance in operating systems and productivity suites." },
+      { "name": "Alignment", "value": 8, "desc": "Open-source contributions, progressive sustainability efforts." },
+      { "name": "Capital Allocation", "value": 8, "desc": "Steady dividends, large acquisitions (LinkedIn, GitHub)." },
+      { "name": "Market Position", "value": 9, "desc": "Powerhouse in enterprise software, cloud computing." },
+      { "name": "Financial Health", "value": 9, "desc": "Strong balance sheet with multiple revenue lines." },
+      { "name": "Outlook", "value": 9, "desc": "Cloud growth, AI integration, potential gaming expansions." }
+    ],
+    "scenario": {
+      "bear": -2,
+      "base": 3,
+      "bull": 7,
+      "bearBullets": [
+        "Slow enterprise spending if macro conditions worsen.",
+        "Competition from AWS or GCP intensifies.",
+        "Regulatory scrutiny on big tech acquisitions.",
+        "Legacy Windows business sees declines."
+      ],
+      "baseBullets": [
+        "Office 365 and Azure maintain steady yoy growth.",
+        "Incremental expansion in gaming, no huge leaps.",
+        "Stable enterprise adoption with moderate competition.",
+        "Buybacks & dividends keep investor satisfaction."
+      ],
+      "bullBullets": [
+        "AI supercharges Office & Azure upsell globally.",
+        "Major cloud wins from enterprise deals worldwide.",
+        "Activision acquisition expands gaming footprint strongly.",
+        "Windows evolves with subscription-based features."
+      ]
+    },
+    "qa": [
+      {
+        "q": "Biggest competitor in cloud?",
+        "a": "AWS leads, while Google Cloud also competes; Azure is second by market share."
+      },
+      {
+        "q": "Antitrust concerns?",
+        "a": "Historically yes. Currently regulators watch all big tech including MSFT."
+      },
+      {
+        "q": "Key growth area?",
+        "a": "AI integration across Office, Azure expansions, gaming acquisitions."
+      },
+      {
+        "q": "Recent big acquisitions?",
+        "a": "They aim to buy Activision; previously acquired LinkedIn, GitHub, etc."
+      },
+      {
+        "q": "Major risk factor?",
+        "a": "Competition from AWS, macro downturn impacting enterprise licensing, potential regulatory hurdles."
+      }
+    ]
+  },
+  {
+    "ticker": "META",
+    "name": "Meta Platforms (META)",
+    "yoy2024": 1.9,
+    "ceo": "Mark Zuckerberg",
+    "hq": "Menlo Park, CA",
+    "industry": "Social Media & Tech",
+    "facts": [
+      "Originally Facebook, started in Harvard dorms, 2004.",
+      "Instagram was acquired for $1B in 2012.",
+      "WhatsApp was acquired for $19B in 2014."
+    ],
+    ...
+  },
+  {
+    "ticker": "TCKR04",
+    "name": "Visa Inc (V)",
+    ...
+  },
+  {
+    "ticker": "TCKR05",
+    "name": "Procter & Gamble (PG)",
+    ...
+  },
+  {
+    "ticker": "TCKR06",
+    "name": "Tesla Inc (TSLA)",
+    ...
+  },
+  {
+    "ticker": "TCKR07",
+    "name": "Johnson & Johnson (JNJ)",
+    ...
+  },
+  {
+    "ticker": "TCKR08",
+    "name": "NVIDIA Corp (NVDA)",
+    ...
+  },
+  {
+    "ticker": "TCKR09",
+    "name": "Netflix Inc (NFLX)",
+    ...
+  },
+  {
+    "ticker": "TCKR10",
+    "name": "Coca-Cola (KO)",
+    ...
+  }
+]
