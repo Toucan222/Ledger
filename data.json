@@ -12,13 +12,13 @@
       "Apple is known for iPhone, iPad, Mac, etc."
     ],
     "scoreboard": [
-      { "name": "Track Record", "value": 9, "desc": "Consistently beats estimates, strong brand efficiency." },
+      { "name": "Track Record", "value": 9,  "desc": "Consistently beats estimates, strong brand efficiency." },
       { "name": "Profitability", "value": 10, "desc": "High margins from premium devices & ecosystem." },
-      { "name": "Revenue Quality", "value": 9, "desc": "Stable hardware plus high-margin services." },
-      { "name": "Analyst Sentiment", "value": 9, "desc": "Mostly bullish, strong brand loyalty." },
+      { "name": "Revenue Quality", "value": 9,  "desc": "Stable hardware plus high-margin services." },
+      { "name": "Analyst Sentiment", "value": 9,  "desc": "Mostly bullish, strong brand loyalty." },
       { "name": "Company Viability", "value": 10, "desc": "Ample cash reserves, unstoppable global presence." },
-      { "name": "Alignment", "value": 8, "desc": "Privacy & environment stance resonates with consumers." },
-      { "name": "Capital Allocation", "value": 9, "desc": "Aggressive buybacks, consistent dividend growth." },
+      { "name": "Alignment", "value": 8,  "desc": "Privacy & environment stance resonates with consumers." },
+      { "name": "Capital Allocation", "value": 9,  "desc": "Aggressive buybacks, consistent dividend growth." },
       { "name": "Market Position", "value": 10, "desc": "Top brand in consumer electronics, unstoppable mindshare." },
       { "name": "Financial Health", "value": 10, "desc": "Robust balance sheet, large free cash flow." },
       { "name": "Outlook", "value": 9, "desc": "AR/VR expansions, wearables pipeline fueling next wave." }
@@ -61,7 +61,7 @@
       },
       {
         "q": "Apple’s stance on environment?",
-        "a": "They aim for carbon neutrality, use renewable energy in data centers, and incorporate more recycled materials."
+        "a": "They aim for carbon neutrality in data centers, and incorporate more recycled materials."
       },
       {
         "q": "What are main risks?",
@@ -82,16 +82,16 @@
       "Azure is a major revenue driver with strong growth."
     ],
     "scoreboard": [
-      { "name": "Track Record", "value": 9, "desc": "Transformation under Nadella outperforms expectations." },
-      { "name": "Profitability", "value": 9, "desc": "High margins from software licensing plus Azure returns." },
-      { "name": "Revenue Quality", "value": 8, "desc": "Enterprise deals plus Office 365 subscriptions." },
-      { "name": "Analyst Sentiment", "value": 9, "desc": "Wall Street sees stable growth in cloud & enterprise." },
-      { "name": "Company Viability", "value": 10, "desc": "Dominance in operating systems and productivity suites." },
-      { "name": "Alignment", "value": 8, "desc": "Open-source contributions, progressive sustainability efforts." },
-      { "name": "Capital Allocation", "value": 8, "desc": "Steady dividends, large acquisitions (LinkedIn, GitHub)." },
-      { "name": "Market Position", "value": 9, "desc": "Powerhouse in enterprise software, cloud computing." },
-      { "name": "Financial Health", "value": 9, "desc": "Strong balance sheet with multiple revenue lines." },
-      { "name": "Outlook", "value": 9, "desc": "Cloud growth, AI integration, potential gaming expansions." }
+      { "name": "Track Record",     "value": 9,  "desc": "Transformation under Nadella outperforms expectations." },
+      { "name": "Profitability",    "value": 9,  "desc": "High margins from software licensing plus Azure returns." },
+      { "name": "Revenue Quality",  "value": 8,  "desc": "Enterprise deals plus Office 365 subscriptions." },
+      { "name": "Analyst Sentiment","value": 9,  "desc": "Wall Street sees stable growth in cloud & enterprise." },
+      { "name": "Company Viability","value": 10, "desc": "Dominance in operating systems and productivity suites." },
+      { "name": "Alignment",       "value": 8,  "desc": "Open-source contributions, progressive sustainability efforts." },
+      { "name": "Capital Allocation","value": 8, "desc": "Steady dividends, large acquisitions (LinkedIn, GitHub)." },
+      { "name": "Market Position", "value": 9,  "desc": "Powerhouse in enterprise software, cloud computing." },
+      { "name": "Financial Health","value": 9,  "desc": "Strong balance sheet with multiple revenue lines." },
+      { "name": "Outlook",         "value": 9,  "desc": "Cloud growth, AI integration, potential gaming expansions." }
     ],
     "scenario": {
       "bear": -2,
@@ -151,41 +151,456 @@
       "Instagram was acquired for $1B in 2012.",
       "WhatsApp was acquired for $19B in 2014."
     ],
-    ...
+    "scoreboard": [
+      { "name": "Track Record",     "value": 8, "desc": "Pivoting to metaverse after strong social media ad growth." },
+      { "name": "Profitability",    "value": 8, "desc": "Ads remain profitable, though Reality Labs invests heavily." },
+      { "name": "Revenue Quality",  "value": 7, "desc": "Heavily reliant on digital ads across FB/IG." },
+      { "name": "Analyst Sentiment","value": 7, "desc": "Mixed on the metaverse pivot; some remain bullish on VR potential." },
+      { "name": "Company Viability","value": 8, "desc": "Giant user base, but public scrutiny & competition from TikTok." },
+      { "name": "Alignment",        "value": 6, "desc": "Privacy & misinformation concerns affect brand trust." },
+      { "name": "Capital Allocation","value": 7, "desc": "Heavy AR/VR capex, overshadowing buybacks currently." },
+      { "name": "Market Position",  "value": 8, "desc": "Huge user network effect, uncertain next steps for VR." },
+      { "name": "Financial Health", "value": 8, "desc": "Strong ad cash flow offsets big R&D, manageable debt." },
+      { "name": "Outlook",          "value": 7, "desc": "Can the metaverse pay off? AR/VR mainstream uncertain." }
+    ],
+    "scenario": {
+      "bear": -4,
+      "base": 1,
+      "bull": 6,
+      "bearBullets": [
+        "Spiraling AR/VR costs with no near-term ROI.",
+        "Competition from TikTok reduces engagement.",
+        "Ad revenue slowdown if macro ad spend declines.",
+        "Regulatory crackdowns on data privacy or antitrust."
+      ],
+      "baseBullets": [
+        "Gradual metaverse dev, stable social ads yoy.",
+        "Instagram Reels offset some short-form competition.",
+        "WhatsApp monetization moderate, no big leaps.",
+        "User base remains large despite controversies."
+      ],
+      "bullBullets": [
+        "Metaverse breakthroughs that attract mainstream users.",
+        "VR adoption drives new revenue streams & synergy.",
+        "Ad platform evolves to handle short-form effectively.",
+        "Global expansions keep FB/IG user growth afloat."
+      ]
+    },
+    "qa": [
+      {
+        "q": "How reliant is Meta on ads?",
+        "a": "Ads still represent the vast majority of revenue, with new attempts at commerce & VR."
+      },
+      {
+        "q": "Any success with VR headsets?",
+        "a": "Quest devices have traction, but remain niche. Widespread adoption is uncertain."
+      }
+    ]
   },
   {
     "ticker": "TCKR04",
     "name": "Visa Inc (V)",
-    ...
+    "yoy2024": 4.1,
+    "ceo": "Alfred F. Kelly Jr.",
+    "hq": "Foster City, CA",
+    "industry": "Payments",
+    "facts": [
+      "Visa began as BankAmericard in 1958.",
+      "Visa processes transactions in 200+ countries.",
+      "Warren Buffett’s Berkshire Hathaway owns a stake in Visa."
+    ],
+    "scoreboard": [
+      { "name": "Track Record",     "value": 9,  "desc": "Consistent growth as digital payments expand worldwide." },
+      { "name": "Profitability",    "value": 10, "desc": "High margins from transaction-based revenue." },
+      { "name": "Revenue Quality",  "value": 9,  "desc": "Reliable transaction fees from card usage globally." },
+      { "name": "Analyst Sentiment","value": 9,  "desc": "Often a top fintech pick, brand strength in card acceptance." },
+      { "name": "Company Viability","value": 9,  "desc": "Global market presence, crucial infrastructure, strong moat." },
+      { "name": "Alignment",        "value": 7,  "desc": "Fees can be contentious in some regions; invests in fintech." },
+      { "name": "Capital Allocation","value": 8, "desc": "Ongoing repurchases, dividends, strategic acquisitions." },
+      { "name": "Market Position",  "value": 10, "desc": "One of the top card networks globally, widely accepted." },
+      { "name": "Financial Health", "value": 9,  "desc": "Steady cash flow, limited debt, healthy margins." },
+      { "name": "Outlook",          "value": 9,  "desc": "Growth from e-commerce, digital wallets, emerging markets." }
+    ],
+    "scenario": {
+      "bear": -2,
+      "base": 2,
+      "bull": 7,
+      "bearBullets": [
+        "Recession slows consumer spending, transaction volumes dip.",
+        "Regional fees disputes or capping hamper profits.",
+        "Competition from new fintech solutions.",
+        "Global travel declines hamper cross-border fees."
+      ],
+      "baseBullets": [
+        "Steady domestic card usage, mild cross-border recovery.",
+        "E-commerce expansions offset any in-person slowdown.",
+        "Partnerships with banks & merchants remain stable.",
+        "Transaction volumes grow in line with normal GDP."
+      ],
+      "bullBullets": [
+        "Rapid digital wallet adoption drives more transaction volume.",
+        "Cross-border travel surges post-pandemic, boosting fees.",
+        "Visa invests in next-gen fintech & crypto rails effectively.",
+        "Emerging markets shift away from cash fosters big leaps."
+      ]
+    },
+    "qa": [
+      {
+        "q": "Any competitor to Visa’s scale?",
+        "a": "MasterCard is the closest, with AmEx & Discover also in the mix."
+      },
+      {
+        "q": "How does Visa earn money?",
+        "a": "Primarily from transaction fees between merchants and banks for card usage."
+      }
+    ]
   },
   {
     "ticker": "TCKR05",
     "name": "Procter & Gamble (PG)",
-    ...
+    "yoy2024": 3.0,
+    "ceo": "Jon R. Moeller",
+    "hq": "Cincinnati, OH",
+    "industry": "Consumer Goods",
+    "facts": [
+      "P&G was founded in 1837 by William Procter and James Gamble.",
+      "P&G has 60+ individual brands (Tide, Pampers, Gillette).",
+      "Big investor in R&D for product innovation."
+    ],
+    "scoreboard": [
+      { "name": "Track Record",     "value": 8, "desc": "Stable performance in consumer staples." },
+      { "name": "Profitability",    "value": 8, "desc": "Strong margins from household brands." },
+      { "name": "Revenue Quality",  "value": 8, "desc": "Repeated consumer purchases, brand loyalty." },
+      { "name": "Analyst Sentiment","value": 7, "desc": "Viewed as a defensive stock, stable but slow growth." },
+      { "name": "Company Viability","value": 9, "desc": "Global presence, diversified brand portfolio." },
+      { "name": "Alignment",        "value": 7, "desc": "Some sustainability improvements, packaging concerns." },
+      { "name": "Capital Allocation","value": 8, "desc": "Dividends, share buybacks, conservative M&A approach." },
+      { "name": "Market Position",  "value": 9, "desc": "Dominant in consumer staples across many categories." },
+      { "name": "Financial Health", "value": 9, "desc": "Stable cash flow, consistent dividend, strong rating." },
+      { "name": "Outlook",          "value": 7, "desc": "Incremental growth, potential in emerging markets." }
+    ],
+    "scenario": {
+      "bear": -2,
+      "base": 2,
+      "bull": 4,
+      "bearBullets": [
+        "Recession hits discretionary spending on branded goods.",
+        "Higher commodity costs reduce margins.",
+        "Competition from cheaper private labels.",
+        "Supply chain issues hamper distribution globally."
+      ],
+      "baseBullets": [
+        "Steady staples demand, stable consumer usage yoy.",
+        "Brand loyalty keeps existing sales consistent.",
+        "Emerging markets offset slower developed market growth.",
+        "Slight margin pressure from input costs but manageable."
+      ],
+      "bullBullets": [
+        "Strong brand expansions in new segments.",
+        "Innovations in sustainability & packaging gain traction.",
+        "Pricing power remains unchallenged by private labels.",
+        "Emerging market expansions drive above-average yoy growth."
+      ]
+    },
+    "qa": [
+      {
+        "q": "Why is P&G seen as defensive?",
+        "a": "Consumers buy staples even in downturns, stabilizing revenue."
+      },
+      {
+        "q": "Which brand is biggest for P&G?",
+        "a": "Tide, Pampers, Gillette, Head & Shoulders among major segments."
+      }
+    ]
   },
   {
     "ticker": "TCKR06",
     "name": "Tesla Inc (TSLA)",
-    ...
+    "yoy2024": 12.4,
+    "ceo": "Elon Musk",
+    "hq": "Austin, TX",
+    "industry": "Electric Vehicles",
+    "facts": [
+      "Named after Nikola Tesla, founded in 2003.",
+      "First Tesla Roadster used Lotus chassis parts.",
+      "Giga Berlin & Giga Texas accelerate production."
+    ],
+    "scoreboard": [
+      { "name": "Track Record",     "value": 8, "desc": "Bold timelines, but big EV expansions executed." },
+      { "name": "Profitability",    "value": 7, "desc": "Margins volatile from expansions, but profitable EV sales." },
+      { "name": "Revenue Quality",  "value": 8, "desc": "Global EV demand, plus energy storage solutions." },
+      { "name": "Analyst Sentiment","value": 7, "desc": "Varies widely from mega-bull to cautious on valuation." },
+      { "name": "Company Viability","value": 8, "desc": "Leader in EV tech, reliant on CEO’s focus though." },
+      { "name": "Alignment",        "value": 7, "desc": "Green mission resonates, controversies from leadership style." },
+      { "name": "Capital Allocation","value": 6, "desc": "High spend on Gigafactories, uncertain ROI timeline." },
+      { "name": "Market Position",  "value": 9, "desc": "Dominates EV brand recognition, supercharger network." },
+      { "name": "Financial Health", "value": 8, "desc": "Improving balance sheet, reliant on new model rollouts." },
+      { "name": "Outlook",          "value": 9, "desc": "Mass EV adoption, new pipeline, potential autonomy." }
+    ],
+    "scenario": {
+      "bear": -4,
+      "base": 3,
+      "bull": 10,
+      "bearBullets": [
+        "EV competition saturates market, pressuring margins.",
+        "CEO distracted by external ventures & controversies.",
+        "Supply chain issues limit production expansions.",
+        "Regulatory changes hamper autopilot & data usage."
+      ],
+      "baseBullets": [
+        "Steady EV sales yoy, no major disruptions.",
+        "New factories in Berlin/Texas ramp moderately.",
+        "Solid brand loyalty offsets new entrants.",
+        "Autopilot evolves but faces regulatory caution."
+      ],
+      "bullBullets": [
+        "Autonomous breakthroughs yield huge new revenue.",
+        "Giga expansions meet surging global EV demand swiftly.",
+        "Energy storage & solar scale significantly.",
+        "Global acceptance of Tesla brand spurs dominating share."
+      ]
+    },
+    "qa": [
+      {
+        "q": "Key EV competitor?",
+        "a": "Traditional automakers like VW, Ford, plus new EVs like Rivian, NIO ramping up."
+      },
+      {
+        "q": "Tesla’s key advantage?",
+        "a": "Integrated software, supercharger network, brand recognition, plus a first-mover edge."
+      }
+    ]
   },
   {
     "ticker": "TCKR07",
     "name": "Johnson & Johnson (JNJ)",
-    ...
+    "yoy2024": 2.2,
+    "ceo": "Joaquin Duato",
+    "hq": "New Brunswick, NJ",
+    "industry": "Pharmaceuticals & Consumer Health",
+    "facts": [
+      "Founded in 1886, known for baby products.",
+      "Has over 250 subsidiary companies worldwide.",
+      "Developed an early single-shot COVID-19 vaccine."
+    ],
+    "scoreboard": [
+      { "name": "Track Record",      "value": 9, "desc": "Steady dividends, strong brand trust in medical & consumer." },
+      { "name": "Profitability",     "value": 9, "desc": "Healthy margins in pharma, consumer lines stable." },
+      { "name": "Revenue Quality",   "value": 8, "desc": "Pharmaceuticals, devices, consumer brands diversified." },
+      { "name": "Analyst Sentiment", "value": 8, "desc": "Generally positive, but large lawsuits weigh some opinions." },
+      { "name": "Company Viability", "value": 9, "desc": "Massive scale, consistent R&D pipeline, brand trust." },
+      { "name": "Alignment",         "value": 7, "desc": "Healthcare focus is beneficial, controversies in product liability." },
+      { "name": "Capital Allocation","value": 8, "desc": "Dividend aristocrat, invests in R&D, spins off occasionally." },
+      { "name": "Market Position",   "value": 9, "desc": "Global leader in pharma & consumer health." },
+      { "name": "Financial Health",  "value": 9, "desc": "Low debt, strong free cash flow." },
+      { "name": "Outlook",           "value": 8, "desc": "Steady growth, expansions in med-tech & new drug pipeline." }
+    ],
+    "scenario": {
+      "bear": -1,
+      "base": 2,
+      "bull": 5,
+      "bearBullets": [
+        "Major lawsuits or recalls hamper brand reputation.",
+        "Pricing pressures in pharma reduce margins.",
+        "Regulatory shifts in medical device approvals.",
+        "Slower consumer spending on OTC lines."
+      ],
+      "baseBullets": [
+        "Steady pharma & device sales yoy, no major shifts.",
+        "Consumer segment stable, incremental product releases.",
+        "Emerging markets offset slow growth in developed ones.",
+        "Continued dividend reliability for shareholders."
+      ],
+      "bullBullets": [
+        "Breakthrough drug approvals drive new revenue streams.",
+        "Acquisitions expand med-tech & consumer lines globally.",
+        "Litigation resolved favorably, boosting investor confidence.",
+        "Brand expansions in emerging markets yield strong yoy growth."
+      ]
+    },
+    "qa": [
+      {
+        "q": "Why is J&J a defensive play?",
+        "a": "Healthcare & consumer staples typically remain in demand during downturns."
+      },
+      {
+        "q": "Major risk factor for J&J?",
+        "a": "Ongoing or potential lawsuits (e.g., talc litigation) can impact finances or brand."
+      }
+    ]
   },
   {
     "ticker": "TCKR08",
     "name": "NVIDIA Corp (NVDA)",
-    ...
+    "yoy2024": 6.7,
+    "ceo": "Jensen Huang",
+    "hq": "Santa Clara, CA",
+    "industry": "Semiconductors",
+    "facts": [
+      "Founded in 1993, focusing on PC graphics initially.",
+      "Dominates GPUs for AI, gaming, data centers.",
+      "GeForce brand widely recognized among PC gamers."
+    ],
+    "scoreboard": [
+      { "name": "Track Record",      "value": 9, "desc": "Dominates GPU market for gaming & AI." },
+      { "name": "Profitability",     "value": 8, "desc": "High margin chips, cyclical demand from crypto/gaming." },
+      { "name": "Revenue Quality",   "value": 8, "desc": "Gaming, data center, automotive AI provide broad base." },
+      { "name": "Analyst Sentiment", "value": 9, "desc": "Bullish on AI expansions & HPC solutions." },
+      { "name": "Company Viability", "value": 8, "desc": "Strong R&D, supply chain constraints are a risk." },
+      { "name": "Alignment",         "value": 7, "desc": "Focus on advanced computing, less on sustainability branding." },
+      { "name": "Capital Allocation","value": 7, "desc": "Heavily invests in next-gen GPUs, smaller buybacks." },
+      { "name": "Market Position",   "value": 9, "desc": "Leader in discrete GPUs, key partner for AI." },
+      { "name": "Financial Health",  "value": 8, "desc": "Solid cash, cyclical revenue swings possible." },
+      { "name": "Outlook",           "value": 9, "desc": "AI, data center, automotive expansions fuel next wave." }
+    ],
+    "scenario": {
+      "bear": -3,
+      "base": 2,
+      "bull": 8,
+      "bearBullets": [
+        "Gaming demand dips post-pandemic, crypto meltdown reduces GPU sales.",
+        "Supply chain issues hamper chip production.",
+        "AMD/Intel gain ground in GPU/AI solutions.",
+        "Regulatory limits on advanced chip exports hamper big markets."
+      ],
+      "baseBullets": [
+        "Sustained gaming & AI demand yoy, stable cyclical patterns.",
+        "Data center expansions offset any gaming slowdown.",
+        "Steady progress in automotive AI, though moderate.",
+        "New GPU generations see typical upgrade cycles."
+      ],
+      "bullBullets": [
+        "Explosive AI/hyperscale data center growth driving huge GPU demand.",
+        "NVIDIA invests in next-gen HPC solutions, forging new markets.",
+        "Automotive advanced driver-assist chips see major adoption.",
+        "No major competitor can match brand or performance leadership."
+      ]
+    },
+    "qa": [
+      {
+        "q": "NVIDIA’s main competitor?",
+        "a": "AMD in discrete GPUs, Intel in integrated, plus specialized AI chips emerging."
+      },
+      {
+        "q": "Focus beyond gaming?",
+        "a": "AI, data center HPC, automotive self-driving chips, HPC solutions for research."
+      }
+    ]
   },
   {
     "ticker": "TCKR09",
     "name": "Netflix Inc (NFLX)",
-    ...
+    "yoy2024": 4.6,
+    "ceo": "Ted Sarandos & Greg Peters",
+    "hq": "Los Gatos, CA",
+    "industry": "Streaming Media",
+    "facts": [
+      "Pioneered streaming, started with DVD-by-mail in 1997.",
+      "First original series was Lilyhammer in 2012.",
+      "Has over 200 million subscribers worldwide."
+    ],
+    "scoreboard": [
+      { "name": "Track Record",      "value": 8, "desc": "Led streaming revolution, facing new competition." },
+      { "name": "Profitability",     "value": 7, "desc": "Significant content spend, but margins improving." },
+      { "name": "Revenue Quality",   "value": 7, "desc": "Subscription model can face churn if content lags." },
+      { "name": "Analyst Sentiment", "value": 6, "desc": "Concerns over competition from Disney+, Prime Video." },
+      { "name": "Company Viability", "value": 8, "desc": "Large global subscriber base, original content library." },
+      { "name": "Alignment",         "value": 6, "desc": "Focus on diverse content, but some controversies." },
+      { "name": "Capital Allocation","value": 6, "desc": "Huge spend on originals, minimal share buybacks." },
+      { "name": "Market Position",   "value": 7, "desc": "Competes with multiple streaming giants, saturating in some markets." },
+      { "name": "Financial Health",  "value": 7, "desc": "High content costs, debt-funded expansions, improved free cash flow recently." },
+      { "name": "Outlook",           "value": 7, "desc": "Ad-supported tier & global expansions keep them afloat, competition is fierce." }
+    ],
+    "scenario": {
+      "bear": -3,
+      "base": 1,
+      "bull": 5,
+      "bearBullets": [
+        "Churn rises as new streamers undercut prices.",
+        "Expensive content deals don't drive enough subscriber gains.",
+        "Global expansions face local/regional competition.",
+        "Password-sharing crackdowns alienate some users."
+      ],
+      "baseBullets": [
+        "Stable subscriber yoy with moderate new originals.",
+        "Ad-supported tier offsets saturated markets.",
+        "Content costs remain high but manageable.",
+        "Churn minimized by popular returning series."
+      ],
+      "bullBullets": [
+        "Hit original franchises spark strong new subscriber waves.",
+        "Ad tier becomes a significant revenue stream globally.",
+        "International expansions see big net adds yoy.",
+        "Creative content deals or gaming tie-ins open new markets."
+      ]
+    },
+    "qa": [
+      {
+        "q": "Main competitor to Netflix?",
+        "a": "Disney+, Amazon Prime Video, HBO Max, etc. all vying for streaming audiences."
+      },
+      {
+        "q": "Biggest risk factor?",
+        "a": "Competition from well-funded rivals, potential saturations in key markets, expensive content arms race."
+      }
+    ]
   },
   {
     "ticker": "TCKR10",
     "name": "Coca-Cola (KO)",
-    ...
+    "yoy2024": 2.5,
+    "ceo": "James Quincey",
+    "hq": "Atlanta, GA",
+    "industry": "Beverages",
+    "facts": [
+      "Coca-Cola originated in 1886 as a soda fountain drink.",
+      "Over 1.9 billion Coke servings are consumed daily worldwide.",
+      "Has many sub-brands like Sprite, Fanta, Minute Maid."
+    ],
+    "scoreboard": [
+      { "name": "Track Record",      "value": 9, "desc": "Decades of stable results, iconic beverage brand." },
+      { "name": "Profitability",     "value": 8, "desc": "Margins from concentrate model, but soda challenges." },
+      { "name": "Revenue Quality",   "value": 8, "desc": "Constant demand for beverages, diversified portfolio." },
+      { "name": "Analyst Sentiment", "value": 8, "desc": "Seen as a defensive staple, stable dividend." },
+      { "name": "Company Viability", "value": 9, "desc": "Mass distribution network, brand loyalty, big marketing." },
+      { "name": "Alignment",         "value": 6, "desc": "Health concerns over sugar, working on zero-sugar lines." },
+      { "name": "Capital Allocation","value": 8, "desc": "Dividend aristocrat, invests in marketing & new beverages." },
+      { "name": "Market Position",   "value": 10, "desc": "Unrivaled brand recognition globally in beverages." },
+      { "name": "Financial Health",  "value": 8, "desc": "Stable free cash flow, moderate debt." },
+      { "name": "Outlook",           "value": 7, "desc": "Soda decline in developed markets offset by new products & emerging markets." }
+    ],
+    "scenario": {
+      "bear": -2,
+      "base": 1,
+      "bull": 3,
+      "bearBullets": [
+        "Soda consumption declines faster in health-focused markets.",
+        "Sugar taxes or regulations hamper volumes.",
+        "Competition from local beverage alternatives in emerging markets.",
+        "Currency fluctuations reduce global profit margins."
+      ],
+      "baseBullets": [
+        "Steady global footprint, moderate yoy growth in core brands.",
+        "Zero-sugar & new flavors offset soda decline somewhat.",
+        "Emerging markets remain key growth areas long-term.",
+        "Strong marketing keeps brand relevant to younger consumers."
+      ],
+      "bullBullets": [
+        "Innovations in new beverage categories see big success.",
+        "Zero-sugar lines & premium products gain traction widely.",
+        "Marketing tie-ups with major events boost brand further.",
+        "Emerging market expansions yield above-average yoy growth."
+      ]
+    },
+    "qa": [
+      {
+        "q": "Why is Coke a defensive stock?",
+        "a": "Beverages see stable demand, brand loyalty keeps revenues steady in downturns."
+      },
+      {
+        "q": "Biggest risk factor?",
+        "a": "Changing consumer tastes, sugar taxes, anti-plastic packaging sentiments."
+      }
+    ]
   }
 ]
